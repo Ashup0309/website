@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    top 0;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+    border: 3px solid white;
+    border-radius:0rlh
+}
+.navbars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top: 100;
+    cursor: pointer;
+    background-color: black;
+}
+.ulbanner li{
+    list-style: none;
+    padding: 6px 39px;
+    font-size: large;
+    font-family:math;
+}
+.ulbanner li a{
+    text-decoration: none;
+    color:white;
+}
+.ulbanner{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items:center;
+    text-align: left;
+    justify-content: left;
+
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 18px 39px;
+    font-size: larger;
+    font-family: initial;
+   
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.rightnav{
+    padding: 0 15px;
+    width: 50%;
+    text-align: right;
+
+}
+.form-control{
+    background: transparent;
+    padding: 08px;
+    font-size: 17px;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+     color: white;
+}
+.background{
+    background: rgba(0, 0, 0,0.7)url(../img/new.webp);
+    background-size: cover;
+    background-blend-mode: darken ;
+
+}
+
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    max-width: 100%;
+    margin: auto;
+    height: 80%;
+}
+.fhalf{
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+}
+.shalf{
+    width: 50%;
+
+}
+.shalf img{
+    width: 500px;
+    height: 300px;
+    padding: 2px 0;
+    border-radius: 23px;
+    display: block;
+    margin: auto;
+
+}
+.text-big{
+    text-align: left;
+    font-size: 50px;
+}
+.text-small{
+    font-size: 25px;
+
+}
+.btn-sn{
+    padding: 6px 15px;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 7px 3px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+
+}
+.btn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin: 7px 3px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.icon-search{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 37vh;
+}
+.icon-truck{
+    color: black;
+    font-size: 16px;
+    position: relative;
+    right: 72vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.ic-info{
+    color: black;
+    font-size: 16px;
+    position: relative;
+    right: 48.5vh;
+    justify-content: center;
+    align-content: center;
+}
+.ics-call{
+    color: black;
+    font-size: 16px;
+    position: relative;
+    right: 23.5vh;
+    justify-content: center;
+    align-content: center;
+}
